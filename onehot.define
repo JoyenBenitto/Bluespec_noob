@@ -1,0 +1,9 @@
+`define a 'b00
+`define b 'b01
+`define c 'b10
+`define d 'b11
+
+`define a_decoded 'b0001
+`define b_decoded 'b0010
+`define c_decoded 'b0100
+`define d_decoded 'b1000
