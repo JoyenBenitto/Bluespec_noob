@@ -1,7 +1,14 @@
-module mkTestbench (Empty);
+package Tb;
 
-    rule rl_print_answer;
-       $display ("Deep Thought says: Hello, World! The answer is 42.");
-       $finish;
-    endrule
- endmodule
+// Hello world program
+
+(*synthesize*)
+module mkTb (Empty);
+
+   rule greet;
+      $display("Hello World");
+      $finish(0);
+   endrule
+
+endmodule: mkTb
+endpackage: Tb
