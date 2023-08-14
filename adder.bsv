@@ -10,7 +10,7 @@ endinterface: Ifc_type
 module mkModuleDeepThought (Ifc_type);
     method int the_answer (int x, int y, int z);
         return x + y + z;
-    endmethod
+    endmethod   
 
 endmodule: mkModuleDeepThought
 endpackage: adder
